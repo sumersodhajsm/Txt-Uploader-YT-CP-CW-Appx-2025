@@ -33,22 +33,22 @@ getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 credit ="😎𝖘:)™~" 
-OWNER = int(os.environ.get("OWNER", 7574786767))
+OWNER = int(os.environ.get("OWNER", 7068035738))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "7574786767").split()):  
+    for x in (os.environ.get("ADMINS", "7068035738").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="8054379090:AAGD-C1gLC6w1kT7c5bFFawO_5R7DIxE2WY",    
-   api_id= 28662166,    
-   api_hash= "d03270e7d1eaefee0675a829acd7271c"
+   bot_token="7630552476:AAGdSH7FUl3IqwzTbLQIuaRC3eMv46Qre-A",    
+   api_id= 25513009,    
+   api_hash= "33ace9b0779df4387a8ad8b7fbe6b050"
 )
 
-@bot.on_message(filters.command(["started"]))    
+@bot.on_message(filters.command(["start"]))    
 async def account_login(bot: Client, m: Message):    
     editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /txt ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/Alex_Aditya9</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
